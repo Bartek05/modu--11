@@ -1,19 +1,11 @@
-// OGÓLNA FUNKCJA
-//function randomString() {
-//	var chars = '0123456789abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXTZ'.split();
-//	var str = '', i;
-//	for (i = 0; i < 10; i++) {
-//	  str += chars[Math.floor(Math.random() * chars.length)];
-//	}
-//	return str;
-//}
-
 var baseUrl = 'https://kodilla.com/pl/bootcamp-api';
 var myHeaders = {
-  'X-Client-Id': <[X-Client-Id]>,
-  'X-Auth-Token': <[X-Auth-Token]>
+  'X-Client-Id': '136',
+  'X-Auth-Token': '1073ee512f1b3a8aebe29b551aabcb6b'
 };
-
+$.ajaxSetup({
+  headers: myHeaders
+});
 $.ajax({
     url: baseUrl + '/board',
     method: 'GET',

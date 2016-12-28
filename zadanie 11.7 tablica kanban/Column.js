@@ -29,8 +29,7 @@ function Column(id, name) {
               		name: cardName,
     				bootcamp_kanban_column_id: self.id
         		},
-        		success: function() {
-            	//tworzenie nowej karty po stronie klienta
+        		success: function(response) {
             		var card = new Card(response.id, cardName);
         			self.createCard(card);
         		}
