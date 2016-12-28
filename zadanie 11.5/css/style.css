@@ -19,12 +19,16 @@ header {
 .trigger {
 	border: 2px solid white;
 	border-radius: 5px;
-	margin-bottom: 15px;
 	width: 300px;
 	height: 30px;
 	color: white;
-	background-color: #55ACEE; 
+	background-color: #55ACEE;
 	font-size: 14px;
+    padding: 0;
+    line-height: 26px;
+    display: block;
+    margin: 0 auto 15px;
+    cursor: pointer;
 }
 .tweet {
 	font-size: 14px;
@@ -36,5 +40,9 @@ header {
 	border-radius: 5px;
 	width: 296px;
 	height: 26px;
+    line-height: 26px;
+}
+.fa {
+    margin: 0 5px 0 0;
 }
 
