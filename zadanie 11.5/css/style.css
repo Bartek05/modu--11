@@ -18,16 +18,31 @@ header {
 }
 .trigger {
 	border: 2px solid white;
+	border-radius: 5px;
 	width: 300px;
 	height: 30px;
 	color: white;
-	background-color: #55ACEE; 
+	background-color: #55ACEE;
+	font-size: 14px;
+    padding: 0;
+    line-height: 26px;
+    display: block;
+    margin: 0 auto 15px;
+    cursor: pointer;
 }
 .tweet {
-	display: inline-block;
+	font-size: 14px;
+	margin: 0 auto;
+	display: block;
 	text-decoration: none;
 	color: white;
 	border: 2px solid white;
-	width: 300px;
-	height: 30px;
+	border-radius: 5px;
+	width: 296px;
+	height: 26px;
+    line-height: 26px;
 }
+.fa {
+    margin: 0 5px 0 0;
+}
+
